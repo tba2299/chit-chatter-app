@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D673A251A5C62C500D94A4C /* conversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D673A241A5C62C500D94A4C /* conversationVC.swift */; };
+		3D71AF6E1A5B4A6700B238F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AF6D1A5B4A6700B238F8 /* AppDelegate.swift */; };
+		3D71AF731A5B4A6700B238F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D71AF711A5B4A6700B238F8 /* Main.storyboard */; };
+		3D71AF751A5B4A6700B238F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D71AF741A5B4A6700B238F8 /* Images.xcassets */; };
+		3D71AF781A5B4A6700B238F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D71AF761A5B4A6700B238F8 /* LaunchScreen.xib */; };
+		3D71AF841A5B4A6700B238F8 /* ChitChatterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AF831A5B4A6700B238F8 /* ChitChatterAppTests.swift */; };
+		3D71AF8E1A5B4ECD00B238F8 /* registerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AF8D1A5B4ECD00B238F8 /* registerVC.swift */; };
+		3D71AF901A5B510E00B238F8 /* anonymous.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D71AF8F1A5B510E00B238F8 /* anonymous.png */; };
+		3D71AF931A5B53E200B238F8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AF911A5B53E200B238F8 /* Bolts.framework */; };
+		3D71AF941A5B53E200B238F8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AF921A5B53E200B238F8 /* Parse.framework */; };
+		3D71AF971A5B541F00B238F8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AF961A5B541F00B238F8 /* AudioToolbox.framework */; };
+		3D71AF991A5B543F00B238F8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AF981A5B543F00B238F8 /* CFNetwork.framework */; };
+		3D71AF9B1A5B544700B238F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AF9A1A5B544700B238F8 /* CoreGraphics.framework */; };
+		3D71AF9D1A5B544C00B238F8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AF9C1A5B544C00B238F8 /* CoreLocation.framework */; };
+		3D71AF9F1A5B545500B238F8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AF9E1A5B545500B238F8 /* MobileCoreServices.framework */; };
+		3D71AFA11A5B545900B238F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AFA01A5B545900B238F8 /* QuartzCore.framework */; };
+		3D71AFA31A5B545E00B238F8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AFA21A5B545E00B238F8 /* Security.framework */; };
+		3D71AFA51A5B546A00B238F8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AFA41A5B546A00B238F8 /* StoreKit.framework */; };
+		3D71AFA71A5B546E00B238F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AFA61A5B546E00B238F8 /* SystemConfiguration.framework */; };
+		3D71AFA91A5B547600B238F8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AFA81A5B547600B238F8 /* libz.dylib */; };
+		3D71AFAB1A5B547D00B238F8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71AFAA1A5B547D00B238F8 /* libsqlite3.dylib */; };
+		3D71AFAE1A5B54E700B238F8 /* chatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AFAD1A5B54E700B238F8 /* chatter.m */; };
+		3D71AFB01A5B562300B238F8 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AFAF1A5B562300B238F8 /* loginVC.swift */; };
+		3D71AFB21A5BB0BC00B238F8 /* usersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AFB11A5BB0BC00B238F8 /* usersVC.swift */; };
+		3D71AFB41A5BB26F00B238F8 /* ResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AFB31A5BB26F00B238F8 /* ResultsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D71AF7E1A5B4A6700B238F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D71AF601A5B4A6700B238F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D71AF671A5B4A6700B238F8;
+			remoteInfo = ChitChatterApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D673A241A5C62C500D94A4C /* conversationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversationVC.swift; sourceTree = "<group>"; };
+		3D71AF681A5B4A6700B238F8 /* ChitChatterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChitChatterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D71AF6C1A5B4A6700B238F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D71AF6D1A5B4A6700B238F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D71AF721A5B4A6700B238F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D71AF741A5B4A6700B238F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D71AF771A5B4A6700B238F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D71AF7D1A5B4A6700B238F8 /* ChitChatterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChitChatterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D71AF821A5B4A6700B238F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D71AF831A5B4A6700B238F8 /* ChitChatterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitChatterAppTests.swift; sourceTree = "<group>"; };
+		3D71AF8D1A5B4ECD00B238F8 /* registerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerVC.swift; sourceTree = "<group>"; };
+		3D71AF8F1A5B510E00B238F8 /* anonymous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anonymous.png; sourceTree = "<group>"; };
+		3D71AF911A5B53E200B238F8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3D71AF921A5B53E200B238F8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		3D71AF961A5B541F00B238F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3D71AF981A5B543F00B238F8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3D71AF9A1A5B544700B238F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D71AF9C1A5B544C00B238F8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D71AF9E1A5B545500B238F8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3D71AFA01A5B545900B238F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D71AFA21A5B545E00B238F8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3D71AFA41A5B546A00B238F8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3D71AFA61A5B546E00B238F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3D71AFA81A5B547600B238F8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3D71AFAA1A5B547D00B238F8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3D71AFAC1A5B54E600B238F8 /* ChitChatterApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChitChatterApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D71AFAD1A5B54E700B238F8 /* chatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatter.m; sourceTree = "<group>"; };
+		3D71AFAF1A5B562300B238F8 /* loginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		3D71AFB11A5BB0BC00B238F8 /* usersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usersVC.swift; sourceTree = "<group>"; };
+		3D71AFB31A5BB26F00B238F8 /* ResultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D71AF651A5B4A6700B238F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D71AFAB1A5B547D00B238F8 /* libsqlite3.dylib in Frameworks */,
+				3D71AFA91A5B547600B238F8 /* libz.dylib in Frameworks */,
+				3D71AFA71A5B546E00B238F8 /* SystemConfiguration.framework in Frameworks */,
+				3D71AFA51A5B546A00B238F8 /* StoreKit.framework in Frameworks */,
+				3D71AFA31A5B545E00B238F8 /* Security.framework in Frameworks */,
+				3D71AFA11A5B545900B238F8 /* QuartzCore.framework in Frameworks */,
+				3D71AF9F1A5B545500B238F8 /* MobileCoreServices.framework in Frameworks */,
+				3D71AF9D1A5B544C00B238F8 /* CoreLocation.framework in Frameworks */,
+				3D71AF9B1A5B544700B238F8 /* CoreGraphics.framework in Frameworks */,
+				3D71AF991A5B543F00B238F8 /* CFNetwork.framework in Frameworks */,
+				3D71AF971A5B541F00B238F8 /* AudioToolbox.framework in Frameworks */,
+				3D71AF941A5B53E200B238F8 /* Parse.framework in Frameworks */,
+				3D71AF931A5B53E200B238F8 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D71AF7A1A5B4A6700B238F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D71AF5F1A5B4A6700B238F8 = {
+			isa = PBXGroup;
+			children = (
+				3D71AF951A5B53EB00B238F8 /* Frameworks */,
+				3D71AF6A1A5B4A6700B238F8 /* ChitChatterApp */,
+				3D71AF801A5B4A6700B238F8 /* ChitChatterAppTests */,
+				3D71AF691A5B4A6700B238F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D71AF691A5B4A6700B238F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D71AF681A5B4A6700B238F8 /* ChitChatterApp.app */,
+				3D71AF7D1A5B4A6700B238F8 /* ChitChatterAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D71AF6A1A5B4A6700B238F8 /* ChitChatterApp */ = {
+			isa = PBXGroup;
+			children = (
+				3D71AF6D1A5B4A6700B238F8 /* AppDelegate.swift */,
+				3D71AF711A5B4A6700B238F8 /* Main.storyboard */,
+				3D71AF741A5B4A6700B238F8 /* Images.xcassets */,
+				3D71AF761A5B4A6700B238F8 /* LaunchScreen.xib */,
+				3D71AF8D1A5B4ECD00B238F8 /* registerVC.swift */,
+				3D71AFAF1A5B562300B238F8 /* loginVC.swift */,
+				3D71AFB11A5BB0BC00B238F8 /* usersVC.swift */,
+				3D71AFB31A5BB26F00B238F8 /* ResultsCell.swift */,
+				3D673A241A5C62C500D94A4C /* conversationVC.swift */,
+				3D71AF6B1A5B4A6700B238F8 /* Supporting Files */,
+				3D71AFAD1A5B54E700B238F8 /* chatter.m */,
+				3D71AFAC1A5B54E600B238F8 /* ChitChatterApp-Bridging-Header.h */,
+			);
+			path = ChitChatterApp;
+			sourceTree = "<group>";
+		};
+		3D71AF6B1A5B4A6700B238F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D71AF8F1A5B510E00B238F8 /* anonymous.png */,
+				3D71AF6C1A5B4A6700B238F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D71AF801A5B4A6700B238F8 /* ChitChatterAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D71AF831A5B4A6700B238F8 /* ChitChatterAppTests.swift */,
+				3D71AF811A5B4A6700B238F8 /* Supporting Files */,
+			);
+			path = ChitChatterAppTests;
+			sourceTree = "<group>";
+		};
+		3D71AF811A5B4A6700B238F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D71AF821A5B4A6700B238F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D71AF951A5B53EB00B238F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D71AFAA1A5B547D00B238F8 /* libsqlite3.dylib */,
+				3D71AFA81A5B547600B238F8 /* libz.dylib */,
+				3D71AFA61A5B546E00B238F8 /* SystemConfiguration.framework */,
+				3D71AFA41A5B546A00B238F8 /* StoreKit.framework */,
+				3D71AFA21A5B545E00B238F8 /* Security.framework */,
+				3D71AFA01A5B545900B238F8 /* QuartzCore.framework */,
+				3D71AF9E1A5B545500B238F8 /* MobileCoreServices.framework */,
+				3D71AF9C1A5B544C00B238F8 /* CoreLocation.framework */,
+				3D71AF9A1A5B544700B238F8 /* CoreGraphics.framework */,
+				3D71AF981A5B543F00B238F8 /* CFNetwork.framework */,
+				3D71AF961A5B541F00B238F8 /* AudioToolbox.framework */,
+				3D71AF911A5B53E200B238F8 /* Bolts.framework */,
+				3D71AF921A5B53E200B238F8 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D71AF671A5B4A6700B238F8 /* ChitChatterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D71AF871A5B4A6700B238F8 /* Build configuration list for PBXNativeTarget "ChitChatterApp" */;
+			buildPhases = (
+				3D71AF641A5B4A6700B238F8 /* Sources */,
+				3D71AF651A5B4A6700B238F8 /* Frameworks */,
+				3D71AF661A5B4A6700B238F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChitChatterApp;
+			productName = ChitChatterApp;
+			productReference = 3D71AF681A5B4A6700B238F8 /* ChitChatterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D71AF7C1A5B4A6700B238F8 /* ChitChatterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D71AF8A1A5B4A6700B238F8 /* Build configuration list for PBXNativeTarget "ChitChatterAppTests" */;
+			buildPhases = (
+				3D71AF791A5B4A6700B238F8 /* Sources */,
+				3D71AF7A1A5B4A6700B238F8 /* Frameworks */,
+				3D71AF7B1A5B4A6700B238F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D71AF7F1A5B4A6700B238F8 /* PBXTargetDependency */,
+			);
+			name = ChitChatterAppTests;
+			productName = ChitChatterAppTests;
+			productReference = 3D71AF7D1A5B4A6700B238F8 /* ChitChatterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D71AF601A5B4A6700B238F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tyler Askew";
+				TargetAttributes = {
+					3D71AF671A5B4A6700B238F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3D71AF7C1A5B4A6700B238F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3D71AF671A5B4A6700B238F8;
+					};
+				};
+			};
+			buildConfigurationList = 3D71AF631A5B4A6700B238F8 /* Build configuration list for PBXProject "ChitChatterApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D71AF5F1A5B4A6700B238F8;
+			productRefGroup = 3D71AF691A5B4A6700B238F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D71AF671A5B4A6700B238F8 /* ChitChatterApp */,
+				3D71AF7C1A5B4A6700B238F8 /* ChitChatterAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D71AF661A5B4A6700B238F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D71AF731A5B4A6700B238F8 /* Main.storyboard in Resources */,
+				3D71AF781A5B4A6700B238F8 /* LaunchScreen.xib in Resources */,
+				3D71AF901A5B510E00B238F8 /* anonymous.png in Resources */,
+				3D71AF751A5B4A6700B238F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D71AF7B1A5B4A6700B238F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D71AF641A5B4A6700B238F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D71AFB01A5B562300B238F8 /* loginVC.swift in Sources */,
+				3D71AFB21A5BB0BC00B238F8 /* usersVC.swift in Sources */,
+				3D673A251A5C62C500D94A4C /* conversationVC.swift in Sources */,
+				3D71AFB41A5BB26F00B238F8 /* ResultsCell.swift in Sources */,
+				3D71AF8E1A5B4ECD00B238F8 /* registerVC.swift in Sources */,
+				3D71AF6E1A5B4A6700B238F8 /* AppDelegate.swift in Sources */,
+				3D71AFAE1A5B54E700B238F8 /* chatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D71AF791A5B4A6700B238F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D71AF841A5B4A6700B238F8 /* ChitChatterAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D71AF7F1A5B4A6700B238F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D71AF671A5B4A6700B238F8 /* ChitChatterApp */;
+			targetProxy = 3D71AF7E1A5B4A6700B238F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D71AF711A5B4A6700B238F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D71AF721A5B4A6700B238F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D71AF761A5B4A6700B238F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D71AF771A5B4A6700B238F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D71AF851A5B4A6700B238F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D71AF861A5B4A6700B238F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D71AF881A5B4A6700B238F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ChitChatterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChitChatterApp/ChitChatterApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D71AF891A5B4A6700B238F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ChitChatterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChitChatterApp/ChitChatterApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3D71AF8B1A5B4A6700B238F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChitChatterAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChitChatterApp.app/ChitChatterApp";
+			};
+			name = Debug;
+		};
+		3D71AF8C1A5B4A6700B238F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChitChatterAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChitChatterApp.app/ChitChatterApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D71AF631A5B4A6700B238F8 /* Build configuration list for PBXProject "ChitChatterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D71AF851A5B4A6700B238F8 /* Debug */,
+				3D71AF861A5B4A6700B238F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D71AF871A5B4A6700B238F8 /* Build configuration list for PBXNativeTarget "ChitChatterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D71AF881A5B4A6700B238F8 /* Debug */,
+				3D71AF891A5B4A6700B238F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D71AF8A1A5B4A6700B238F8 /* Build configuration list for PBXNativeTarget "ChitChatterAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D71AF8B1A5B4A6700B238F8 /* Debug */,
+				3D71AF8C1A5B4A6700B238F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D71AF601A5B4A6700B238F8 /* Project object */;
+}
